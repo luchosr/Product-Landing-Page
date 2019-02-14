@@ -3,13 +3,22 @@
     padding: 0;
     /* box-sizing: border-box; */
   }
+  /* 
+  fonts:
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+  */
+
   body{
       background-color: rgba(216, 211, 211, 0.797);
-
+      font-family: 'Roboto', sans-serif;
   }
   header{
-      /* display: flex; */
+      
       width: 100vw;
+  }
+  h1{
+    font-family: 'Montserrat', sans-serif;
   }
   nav{
       flex-direction: row;
@@ -38,4 +47,14 @@ li{
 }
 li a{
     text-decoration: none;
+}
+.hero{
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.hero h2{
+    margin: 20px;
 }
