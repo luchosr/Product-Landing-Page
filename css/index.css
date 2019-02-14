@@ -58,6 +58,16 @@ li a{
 .hero h2{
     margin: 20px;
 }
+#email{
+    width: 300px;
+    height: 20px;
+    border: 2px solid;
+}
+ #submit{
+    background-color: #FFD166;
+    width: 80px;
+    height: 25px;;
+}
 #features{
     min-height: 450px;
     display: flex;
@@ -84,13 +94,19 @@ li a{
     margin-top: 45px;
 }
 .options{
-    min-height: 550px; 
+    width: 100%;
+    min-height: 450px; 
     display: flex;
     flex-direction: row; 
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
 }
 .opt{
+border: 2px solid #CAC4CE;
 margin: 50px;
-width: 150px;
+width: 35%;
+}
+.opt h3{
+    background-color: rgb(145, 197, 216);
 }
