@@ -10,7 +10,7 @@ font-family: 'Roboto', sans-serif;
   */
 
   body{
-      background-color: rgba(216, 211, 211, 0.797);
+      background-color: #eee;
       font-family: 'Roboto', sans-serif;
   }
   header{
@@ -49,7 +49,7 @@ li a{
     text-decoration: none;
 }
 .hero{
-    height: 350px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,4 +57,40 @@ li a{
 }
 .hero h2{
     margin: 20px;
+}
+#features{
+    min-height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    min-width: 600px;
+}
+.description i{
+    width: 150px;
+    color:#fe5f55;
+}
+.howTo{
+    min-height: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.video{
+    margin-top: 45px;
+}
+.options{
+    min-height: 550px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+}
+.opt{
+margin: 50px;
+width: 150px;
 }
