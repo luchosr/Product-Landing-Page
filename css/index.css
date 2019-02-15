@@ -105,8 +105,30 @@ li a{
 .opt{
 border: 2px solid #CAC4CE;
 margin: 50px;
-width: 35%;
+width: 20%;
+max-height: 250px;
+display: flex;
+flex-direction: column;
+text-align: center;
+border-radius: 4px;
 }
 .opt h3{
     background-color: rgb(145, 197, 216);
+    height: 30px;
+    padding-top: 10px;
+}
+
+.opt h2, .opt p{
+    margin: 20px;
+    font-weight: bold;
+}
+button{
+    display: flex;
+    width: 90px;
+    padding-left: 23px;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #41B6E6;
+    font-weight: bolder;
 }
