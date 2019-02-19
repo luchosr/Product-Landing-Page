@@ -12,10 +12,11 @@ font-family: 'Roboto', sans-serif;
   body{
       background-color: #eee;
       font-family: 'Roboto', sans-serif;
-  }
+      width: 100%;
+    }
   header{
       
-      width: 100vw;
+      width: 100%;
   }
   h1{
     font-family: 'Montserrat', sans-serif;
@@ -65,15 +66,24 @@ li a{
 .hero h2{
     margin: 20px;
 }
+form{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 #email{
-    width: 300px;
+    width: 30%;
     height: 20px;
     border: 2px solid;
+    margin-left: 15%;
 }
  #submit{
     background-color: #FFD166;
     width: 80px;
-    height: 25px;;
+    height: 25px;
+    margin: 10px;
 }
 #features{
     min-height: 450px;
@@ -81,11 +91,12 @@ li a{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 .description{
     display: flex;
     flex-direction: row;
-    min-width: 600px;
+    width: 60%;
 }
 .description i{
     width: 150px;
@@ -162,11 +173,17 @@ footer{
     nav{
         height: 200px;
         flex-direction: column;
-
         
     }
     .hero{
-
+        margin: auto;
+        width: 100vw;
+    }
+    iframe{
+        width: 90%;
+    }
+    .options{
+        
     }
 
 }  
