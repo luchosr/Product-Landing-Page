@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+ 
   }
   /* 
   fonts:
@@ -9,21 +9,24 @@
 font-family: 'Roboto', sans-serif;
   */
 
+/*   Refactors */
+footer, button, nav, form, .brand, .hero, .description,.howTo, #features, .opt, .options{
+    display: flex;
+}
+
   body{
       background-color: #eee;
       font-family: 'Roboto', sans-serif;
       width: 100%;
     }
   header{
-      
       width: 100%;
-  }
-  h1{
+  } 
+
+  header h1{
     font-family: 'Montserrat', sans-serif;
   }
-  nav, form, .brand, .hero{
-    display: flex;
-}
+ 
   nav{
       background-color: #eee;
       height: 70px;
@@ -86,14 +89,12 @@ form{
 }
 #features{
     min-height: 450px;
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 100%;
 }
 .description{
-    display: flex;
     flex-direction: row;
     width: 60%;
 }
@@ -103,7 +104,7 @@ form{
 }
 .howTo{
     height: 450px;
-    display: flex;
+
     flex-direction: row;
     justify-content: center;
 }
@@ -113,7 +114,6 @@ form{
 .options{
     width: 100%;
     min-height: 450px; 
-    display: flex;
     flex-direction: row; 
     justify-content: center;
     margin: 0;
@@ -124,7 +124,6 @@ border: 2px solid #CAC4CE;
 margin: 50px;
 width: 20%;
 max-height: 250px;
-display: flex;
 flex-direction: column;
 text-align: center;
 border-radius: 4px;
@@ -140,7 +139,7 @@ border-radius: 4px;
     font-weight: bold;
 }
 button{
-    display: flex;
+
     width: 90px;
     padding-left: 23px;
     margin: 0 auto;
@@ -153,7 +152,7 @@ footer{
     border-radius: 3px;
     margin: auto;
     width: 80%;
-    display: flex;
+ 
     flex-direction: row;
     min-height: 80px;
     background-color: lightslategray;
@@ -168,13 +167,11 @@ footer{
     header{
        height: 250px;
     }
-    nav, .options, .linkList{
+    nav, ul li, .options, .linkList{
         flex-direction: column;
     }
     nav{
         height: 300px;
-        
-        
     }
     .hero{
         margin: auto;
@@ -191,7 +188,6 @@ footer{
     }
     ul li{
         display: flex;
-        flex-direction: column;
         align-items: center;
     }
   
