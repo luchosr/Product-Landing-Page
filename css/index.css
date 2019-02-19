@@ -21,7 +21,7 @@ font-family: 'Roboto', sans-serif;
   h1{
     font-family: 'Montserrat', sans-serif;
   }
-  nav, .brand{
+  nav, form, .brand, .hero{
     display: flex;
 }
   nav{
@@ -58,7 +58,6 @@ li a{
 }
 .hero{
     height: 350px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
@@ -69,7 +68,7 @@ li a{
 form{
     height: 90px;
     width: 100%;
-    display: flex;
+   
     flex-direction: row;
     align-items: center;
 }
@@ -165,25 +164,36 @@ footer{
   text-decoration: none;
   color: black;
 }
-@media (max-width: 401px){
+@media (max-width: 750px){
     header{
        height: 250px;
     }
-    
-    nav{
-        height: 200px;
+    nav, .options, .linkList{
         flex-direction: column;
+    }
+    nav{
+        height: 300px;
+        
         
     }
     .hero{
         margin: auto;
-        width: 100vw;
+        width: 100%;
     }
     iframe{
         width: 90%;
     }
     .options{
-        
+        align-items: center;
     }
+    .opt{
+        width: 45%
+    }
+    ul li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  
 
 }  
