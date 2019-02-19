@@ -20,20 +20,21 @@ font-family: 'Roboto', sans-serif;
   h1{
     font-family: 'Montserrat', sans-serif;
   }
+  nav, .brand{
+    display: flex;
+}
   nav{
       background-color: #eee;
-      min-height: 70px;
+      height: 70px;
       width: 100%;
       position: fixed;
       flex-direction: row;
       justify-content: space-around;
   }
   .linkList{
-      float
+      float:right;
   }
-  nav, .brand{
-      display: flex;
-  }
+  
 .brand img{
     width: 60px;
     height: 70px;
@@ -55,7 +56,7 @@ li a{
     text-decoration: none;
 }
 .hero{
-    min-height: 250px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -91,7 +92,7 @@ li a{
     color:#fe5f55;
 }
 .howTo{
-    min-height: 450px;
+    height: 450px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -153,3 +154,19 @@ footer{
   text-decoration: none;
   color: black;
 }
+@media (max-width: 401px){
+    header{
+       height: 250px;
+    }
+    
+    nav{
+        height: 200px;
+        flex-direction: column;
+
+        
+    }
+    .hero{
+
+    }
+
+}  
